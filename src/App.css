@@ -1,0 +1,33 @@
+.home{
+  background: url('../src/Components/Images/dd.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 1519px;
+  height: 900px;
+  
+}
+div{
+  font-family: 'Poppins', sans-serif;
+}
+.tv{
+  background-image: url('https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 50%;
+  box-shadow: inset;
+}
+.tvs{
+  background-image: url('https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 40%;
+  box-shadow: inset;
+}
