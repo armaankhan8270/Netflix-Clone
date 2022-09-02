@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import video from './v.mp4'
+import video from './videos/v.mp4'
 
 const Header4 = () => {
   const [number, setnumber] = useState(3);
@@ -16,7 +16,7 @@ const Header4 = () => {
   ];
   return (
     <div>
-      <div className="w-[1519px] h-[465px] justify-center bg-[#000000] border-[8px] border-[#333333]  ">
+      <div className="w-[1519px] h-[465px] justify-center bg-[#000000] border-[2px] border-[#333333]  ">
         <div className="flex w-[1100px] h-[325px] ml-[270px] mr-[270px]  mt-[70px]">
          
           

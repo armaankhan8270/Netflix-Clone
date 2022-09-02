@@ -3,7 +3,8 @@ import Header from './Components/Header';
 import Header2 from './Components/Header2';
 import Header3 from './Components/Header3';
 import Header4 from './Components/Header4';
-import Header5 from './Components/header5';
+import Header5 from './Components/Header5';
+import Header6 from './Components/Header6';
 import Home from './Components/Home';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Header3/>
       <Header4/>
       <Header5/>
+      <Header6/>
       
       <h1 className="text-3xl font-bold underline">
 

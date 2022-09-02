@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 
 const Header2 = () => {
-  const [number, setnumber] = useState(3);
+  const [number, setnumber] = useState(1);
   useEffect(() => {
     setInterval(setnumber(0), 3000);
   }, []);
@@ -15,7 +15,7 @@ const Header2 = () => {
   ];
   return (
     <div>
-      <div className="w-[1519px] h-[465px] justify-center bg-[#000000] border-[8px] border-[#333333]  ">
+      <div className="w-[1519px] h-[465px] justify-center bg-[#000000] border-[2px] border-[#333333]  ">
         <div className="flex w-[1100px] h-[325px] ml-[270px] mr-[270px]  mt-[70px]">
          
           
@@ -34,8 +34,18 @@ const Header2 = () => {
               height={"10px"}
               src={img[number]}
               alt=""
-              className="mt-14 ml-[58px] h-[180px]"
+              className="mt-[69px] ml-[58px] h-[180px]"
             />
+            <button onClick={()=>{
+              if(number<=3){
+
+                setnumber(number+1)
+              }
+              if(number==3){
+                setnumber(0)
+                
+              }
+            }} className="text-white text-center ml-32 bg-slate-800 rounded-lg mt-4 border-2 border-gray-400 w-1/4">Cahnge</button>
           </div>
         </div>
       </div>
