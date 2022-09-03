@@ -31,3 +31,23 @@ div{
   width: 40%;
   box-shadow: inset;
 }
+.rowt::-webkit-scrollbar{
+  display:none
+}
+.rowt{
+  overflow-x: scroll;
+
+}
+.bgi {
+  /* The image used */
+  background-image: url("./Components/Images/stranger.jpg");
+
+  /* Full height */
+  height: 751px;
+  width: 1519px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

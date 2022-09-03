@@ -1,4 +1,5 @@
 import "./App.css";
+import Banner2 from "./banner2";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Header2 from "./Components/Header2";
@@ -16,16 +17,15 @@ function App() {
 
   return (
     <div className="">
-      <div className="">
-        <NetflixHome
-          title={"Netflix Orignals"}
-          fetctUrl="https://api.themoviedb.org/3/trending/all/week?api_key=fc85b8aebcdd175a81c9ce4e23df26bf&language=en-US"
-        />
-      </div>
+      {/* <Banner2 />
+      <NetflixHome
+        title={"Netflix Orignals"}
+        fetctUrl="https://api.themoviedb.org/3/trending/all/week?api_key=fc85b8aebcdd175a81c9ce4e23df26bf&language=en-US"
+      />
       <NetflixHome
         title={"Trending"}
         fetctUrl={`https://api.themoviedb.org/3/discover/tv?api_key=${apikey}&with_networks=213`}
-      />
+      /> */}
       <Home />
       <Header2 />
       <Header3 />
