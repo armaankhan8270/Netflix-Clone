@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Banner from "../Banner";
 import Header from "./Header";
 import logo from "./Images/download.png";
 
@@ -7,13 +8,14 @@ const Home = () => {
   return (
     <div className="home  ">
       <div className="w-[1519px] brightness-105 h-[80px] flex ml-14 bg-transparent overflow-hidden">
-        <img
+        {/* <img
           width={"167px"}
           height={"45px"}
           className="pt-5 brightness-[125%]"
           src={logo}
           alt=""
-        />
+        /> */}
+        <Banner />
         <button className="text-sm pr-2 pl-2 text-white ml-[68%] bg-transparent border-2 h-7 border-gray-400 mt-3 grayscale ">
           🌐 English
         </button>

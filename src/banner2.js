@@ -31,7 +31,7 @@ const Banner2 = () => {
         style={{
           backgroundImage: `url("http://image.tmdb.org/t/p/original/${Movies.backdrop_path}")`,
         }}
-        className="bg-cover bg-center h-[500px] pt-15 "
+        className="bg-cover bg-center h-[500px] pt-15 md:w-1/2 lg:w-full sm:w-1/3 "
       >
         <div className="pl-12  pt-[200px] text-white  shadow-lg">
           <h1 className="text-3xl font-bold ">
@@ -51,7 +51,9 @@ const Banner2 = () => {
               Play
             </button>
           </div>
-          <h1 className="w-1/2 text-sm ">{Movies.overview}</h1>
+          <h1 className="w-1/2 text-sm min-h-[100px] overflow-hidden ">
+            {Movies.overview?.substring(0, 490)}
+          </h1>
         </div>
       </div>
     </header>
